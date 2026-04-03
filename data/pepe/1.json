@@ -1,0 +1,12 @@
+{
+  "id": "1",
+  "name": "Dark Souls 3",
+  "description": "Souls",
+  "platform": "PC",
+  "genre": "RPG",
+  "developer": "FromSoftware",
+  "releaseYear": 2013,
+  "multiplayer": true,
+  "estimatedHours": 100,
+  "marketValue": 100
+}
