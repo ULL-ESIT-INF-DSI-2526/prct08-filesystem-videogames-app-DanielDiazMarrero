@@ -1,9 +1,9 @@
 import { describe, test, expect, beforeEach, afterEach, vi } from "vitest";
 import fs from "fs";
 import path from "path";
-import { GameLibrary } from "../src/gameLibrary";
-import { VideoGame } from "../src/videoGame";
-import { Genre, Platform } from "../src/types/types";
+import { GameLibrary } from "../../src/ej1/gameLibrary";
+import { VideoGame } from "../../src/ej1/videoGame";
+import { Genre, Platform } from "../../src/ej1/types/types";
 
 describe("GameLibrary", () => {
   const username = "testuser";

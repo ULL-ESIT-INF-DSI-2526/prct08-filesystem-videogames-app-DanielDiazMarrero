@@ -1,6 +1,6 @@
 import { describe, test, expect } from "vitest";
-import { VideoGame } from "../src/videoGame";
-import { Genre, Platform } from "../src/types/types";
+import { VideoGame } from "../../src/ej1/videoGame";
+import { Genre, Platform } from "../../src/ej1/types/types";
 
 describe("VideoGame", () => {
   test("Se crea correctamente y devuelve ID", () => {
