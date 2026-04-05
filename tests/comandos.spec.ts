@@ -3,7 +3,7 @@ import { execSync } from "child_process";
 import fs from "fs";
 import path from "path";
 
-  test("borrar", () => expect(true).toBe(true));
+  test("borrar", () => expect(true).toBe(true)); 
 
 /*describe("CLI tests (yargs)", () => {
   const username = "cliuser";
