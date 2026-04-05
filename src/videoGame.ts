@@ -24,19 +24,4 @@ export class VideoGame {
         throw new Error(chalk.red("Valor de mercado no válido"))
       }
     }
-
-    /*getData(): string | undefined {
-        
-      return 
-        `ID: ${this.id}, 
-        NAME: ${this.name},
-        DESC: ${this.description},
-        PLATFORM: ${this.platform},
-        GENRE: ${this.genre},
-        DEVELOPER: ${this.developer},
-        RELEASE: ${this.releaseYear},
-        MULTIPLAYER: ${this.multiplayer},
-        ESTIMATEDHOURS: ${this.estimatedHours},
-        MARKETVALUE: ${this.marketValue},`
-    }*/
 }

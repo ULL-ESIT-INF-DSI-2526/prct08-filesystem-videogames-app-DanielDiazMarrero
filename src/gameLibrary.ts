@@ -42,7 +42,7 @@ export class GameLibrary {
     const filePath = this.getGamePath(id);
 
     if (!fs.existsSync(filePath)) {
-      console.log(chalk.red(`No existe videojuego con ID ${id}`));
+      throw new Error(chalk.red(`No existe videojuego con ID ${id}`));
       return;
     }
 

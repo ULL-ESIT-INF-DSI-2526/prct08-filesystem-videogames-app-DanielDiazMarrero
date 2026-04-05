@@ -8,9 +8,9 @@ yargs(hideBin(process.argv))
 
   // ADD
   .command(
-    "add",
-    "Añadir videojuego",
-    {
+    "add",  // nombre
+    "Añadir videojuego",  // info del --help
+    {  // argumentos
       user: { type: "string", demandOption: true },  // demandOption es para que sea obligatorio y nunca sea undefined
       id: { type: "string", demandOption: true },
       name: { type: "string", demandOption: true },
@@ -23,7 +23,7 @@ yargs(hideBin(process.argv))
       estimatedHours: { type: "number", demandOption: true },
       marketValue: { type: "number", demandOption: true },
     },
-    (argv) => {
+    (argv) => {  // funcion del comando
       const library = new GameLibrary(argv.user);
 
       library.addGame(new VideoGame(
